@@ -1,0 +1,80 @@
+01. 
+const nome = "Pedro H";
+const idade = 19;
+
+console.log ("Nome: " + nome);
+console.log ("Idade: " + idade);
+
+02. 
+const num1 = 8;
+const num2 = 7;
+
+console.log ("Soma: " + (num1 + num2));
+
+03.
+const nome1 = "Pedro";
+const nome2 = "Henrique";
+
+console.log ("Meus dois primeiros nomes são: " + (nome1 + "" + nome2));
+
+04.
+//Uma linha//
+/*Duas
+linhas*/
+
+05.
+const numero1 = 9;
+const numero2 = 91;
+
+console.log ("Soma: " + (numero1 + numero2));
+console.log ("Subtração " + (numero1 - numero2));
+console.log ("Multiplicação: " + (numero1 * numero2));
+console.log ("Divisão: " + (numero1 / numero2));
+console.log ("Porcentagem: " + (numero1 % numero2));
+
+06.
+const num = 5;
+
+if (num % 2 == 0) {
+    console.log (`A variável ${num} é Par`);
+    
+} else {
+    console.log (`A variável ${num} é Ímpar`);
+}
+
+07. 
+const num = 150;
+const numstg = "150";
+
+console.log (num == numstg);
+console.log (num === numstg);
+
+08.
+const nome = "Pedro";
+const idade = 19;
+const altura = 1.79;
+const infos = true;
+
+console.log (typeof nome, nome);
+console.log (typeof idade, idade);
+console.log (typeof altura, altura);
+console.log (typeof infos, infos);
+
+09.
+const celsius = 29;
+const fahrenheit = (celsius * 9/5) + 32;
+
+console.log (`${celsius} °C equivalem a ${fahrenheit} °F`);
+
+10. 
+const nota1 = 10;
+const nota2 = 4;
+const nota3 = 6;
+
+const media = (nota1 + nota2 + nota3) / 3;
+
+if (media >= 7) {
+  console.log(`Aluno aprovado, media: ${media}`);
+} else {
+  console.log(`Aluno reprovado, média: ${media}`);
+}
